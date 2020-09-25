@@ -83,6 +83,10 @@ Below is the overview of the files:
 Below are the instructions to run the experiments. The instructions are general and not supported with the commands to allow for more flexibility.
 The methods listed below specify the general pipeline to follow to reproduce an experiment. The reader is expected to run the notebooks provided to get a gist of the pipeline.
 
+1. Clone the repository: `git clone https://github.com/sarthakTUM/progressive-neural-networks-for-nlp.git`
+2. Install the requirements: `pip install -r requirements.txt`
+3. Follow the steps below for the required functionality
+
 ### Named Entity Recognition Single-Task:
 1. Download the raw dataset with train, validation and test splits
 2. Run the ‘sentence→label’ converter in src/notebooks/data_preparation folder. There are Jupyter notebooks for various datasets. The notebooks convert the CoNLL03 format into SL format. The resulting datasets will be saved in the NER/data folder.

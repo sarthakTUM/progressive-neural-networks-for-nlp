@@ -1,0 +1,19 @@
+{
+    "learning_rate": 0.015,
+    "batch_size": 10,
+    "num_epochs": 200,
+    "lstm_hidden_dim": 200,
+    "embedding_dim": 100,
+    "char_embedding_dim":30,
+    "char_cnn_filters": 30,
+    "char_cnn_kernel_size": 3,
+    "save_summary_steps": 100,
+    "max_word_length": 30,
+    "momentum":0.9,
+    "patience":20,
+    "lr_decay_rate":0.05,
+    "decoder":"crf",
+    "dropout":0.5,
+    "freeze_wordembeddings":true,
+    "rnn_bidirectional":true
+}

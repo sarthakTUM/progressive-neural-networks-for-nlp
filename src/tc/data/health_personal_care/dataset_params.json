@@ -1,0 +1,22 @@
+{
+    "train_size": 1440,
+    "val_size": 160,
+    "test_size": 400,
+    "eval_size": 0,
+    "vocab_size": 11501,
+    "number_of_tags": 2,
+    "special_tokens": {
+        "pad_WORD": "__PAD__",
+        "unk_WORD": "__UNK__",
+        "pad_CHAR": "__PAD__",
+        "unk_CHAR": "__UNK__",
+        "pad_CLASS": null,
+        "unk_CLASS": null
+    },
+    "data_iterators": {
+        "train": "SLIterator",
+        "val": "SLIterator",
+        "test": "SLIterator",
+        "eval": "NoneType"
+    }
+}
